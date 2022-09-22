@@ -1,0 +1,250 @@
+@font-face {
+    src: url(fonts/Blender-Pro-Bold.otf);
+    font-family:nos;
+}
+.mostfav::-webkit-scrollbar{
+    width: 3em;
+}
+.mostfav::-webkit-scrollbar-thumb{
+    background: white;
+    width: 10px;
+    border-radius: 10px;
+    border: 0.25em solid #120F26;
+
+}
+.mostfav::-webkit-scrollbar-track{
+    display: none;
+}
+.x::-webkit-scrollbar{
+    width: 3em;
+}
+.x::-webkit-scrollbar-thumb{
+    background: black;
+    width: 10px;
+    border-radius: 10px;
+    border: 0.25em solid #F2E205;
+
+}
+.x::-webkit-scrollbar-track{
+    display: none;
+}
+html{
+    margin: 0%;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0em;
+}
+body{
+    margin: 0%;
+    border: 0px;
+    font-family: nos!important;
+    color: white!important;
+    background-color: black!important;
+}
+#header {
+   
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+}
+#content {
+    margin: 0px;
+    
+}
+
+li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#con2 { 
+    height: 10%;
+    color: #000;
+    bottom: 0px;
+    position: fixed;
+    background: gray;
+    padding: 0px;
+    display: block;
+}
+
+.images {
+   height: 150px;
+}
+
+div{
+    display: block;
+}
+.menu-side{
+    background-color:#120F26!important;
+}
+  .mostfav{
+    
+    display: inline-block;
+    width: 100%;
+    max-height: 300px;
+    overflow: auto;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color:#120F26!important;
+  }
+  .mostfav li{
+    list-style: none;
+    display: inline-block;
+  }
+  
+  #Cyberpunk{
+        width:100% ;
+        max-height: 500px;
+        background-color: #F2E205;
+        justify-content: center!important;
+  }
+  #cyb{
+    width:100% ;
+    display:inline-block;
+    position: absolute;
+  }
+  .songs{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+  }
+.x{
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+#i1{
+    background-image: url("images/Untitled-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.songs:hover{
+opacity: 80%;
+}
+#i2{
+    background-image: url("https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#i3{
+    background-image: url("https://m.media-amazon.com/images/I/81cj7nmsL1L._SS500_.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#i4{
+    background-image: url("https://i1.sndcdn.com/artworks-T0TSjc4VxSQHynYo-AI90rA-t500x500.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#i5{
+    background-image: url("https://assets-prd.ignimgs.com/2020/06/25/cyberpunk-edgerunners-button-002-1593104186760.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#i6{
+    background-image: url("https://images.genius.com/f7187d9a6b515b692fa46dda8f62841b.1000x1000x1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.i1:hover::after{
+    padding-bottom: 15px
+}
+.snglst{
+    display: inline-block;
+}
+.fp{
+    width: 100%;
+    background-image: url(images/cybedge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-position: center;
+}
+.logs{
+    background-image: url("images/logos.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height:70px;
+    float: right;
+    display:inline-block ;
+    position: relative;
+}
+#cdpr{
+    height: 100%;
+    width: 50%;
+    float: right;
+    cursor: pointer;
+    
+}
+.advert{
+    background-color: #fcee0a;
+}
+#trig{
+    height: 100%;
+    width: 50%;
+    float: left;
+    cursor: pointer;
+    
+}
+#cep{
+    text-align:left;
+    color: #fcee0a;
+    display: inline-block;
+    float: left;
+}
+.fade-in{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #000;
+    font-size: 230%;
+}
+.separbotim{
+    width: 100%;
+    background-image: url("images/separator-yellow-0ff8adc0.svg");
+    background-position: bottom;
+    height: 653px;
+    top: calc(100%-40px);
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    z-index: 1;
+}
+.separ{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/separator-big-490f1483.svg");
+}
+@media only screen and (max-width: 1000px) {
+
+    .logs{
+        display: block;
+        justify-content: center;
+        width: 500px;
+        height: 80px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+    #cep{
+        text-align: center;
+        display: block;
+        float: none;
+        font-size: 150%;
+        color: #fcee0a;
+    }
+}
